@@ -1,0 +1,24 @@
+nav{
+	font-family: sans-serif;
+    font-stretch: expanded;
+    font-weight: bold;
+
+}
+.navbar-brand {
+	background-image: url("https://i.ibb.co/PrJMXKv/banner-removebg-preview.png");
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 150px;
+    height: 40px;
+  }
+  
+  .navbar-nav .nav-item:hover {
+	background-color: rgba(180, 190, 203, 0.4);
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: static;
+    background: aliceblue;}
+  

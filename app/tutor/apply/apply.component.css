@@ -1,0 +1,124 @@
+* {
+    margin-top: 10px;
+}
+
+.subbox {
+    height: auto;
+    width: 45%;
+    margin: 3% 27.5% 5% 27.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 12px;
+    row-gap: 10px;
+
+}
+
+
+.subbox a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.subbox a :hover {
+    background-color: azure;
+    color: rgba(80, 80, 80, 0.719);
+    
+}
+.sub-button {
+    width: 40%;
+    margin: 0% 30%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.submit {
+    font-size: medium;
+    font-weight: 500;
+    padding: 2% 3.5%;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 2em;
+    border: none;
+    /* margin: 2%; */
+    background-color: #4fb3f6;
+    color: #ffffff;
+
+}
+
+.sub-button :hover {
+    background-color: rgba(253, 253, 253, 0.918);
+    color: rgb(105, 105, 105);
+    border: rgb(105, 105, 105) 1px solid;
+
+}
+
+@media screen and (max-width: 900px) {
+    .subbox {
+        margin: 5% 4%;
+        width: 92%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .subbutton {
+        font-size: large;
+        font-weight: bolder;
+        padding: 15%;
+    }
+    .sub-button {
+        width: 90%;
+        margin: 7% 5%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+
+
+}
+
+
+/* ................................. subject selection*/
+
+.weekDays-selector input {
+    display: none!important;
+  }
+  
+  .weekDays-selector input[type=checkbox] + label {
+    display: inline-block;
+    /* border: rgba(138, 138, 138, 0.671) solid 0.1em; */
+    border-radius: 3.2em;
+    background-color: cornflowerblue;
+    color: white;
+    /* box-shadow: 1px 1px 5px rgb(0 0 0 / 23%), -1px 0px 5px rgb(0 0 0 / 23%); */
+    /* font-size: large; */
+    /* font-weight: bolder; */
+    font-size: x-large;
+    padding: 12%;
+    text-transform: uppercase;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .weekDays-selector input[type=checkbox]:checked + label {
+    background:rgb(0, 140, 255);
+    color: #ffffff;
+  }
+
+
+  h1{
+    text-align: center;
+  }
+  .sub-img-size {
+    height: 30px;
+    width: 30px;
+    image-resolution: 100%;
+    padding-right:5%;
+}
+
+li{
+    list-style: none;
+}
